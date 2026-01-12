@@ -34,5 +34,27 @@ Para otimizar o fluxo de dados e o armazenamento, utilizou-se o formato Apache P
 * **projeto_enem_bh.ipynb:** Notebook principal contendo todo o pipeline de processamento e análise.
 * **README.md:** Documentação técnica detalhada do projeto.
 
----
-*Este projeto demonstra competências em Engenharia de Dados, Análise Exploratória (EDA) e Visualização de Dados aplicadas a problemas sociais complexos.*
+## Análise Estatística da Desigualdade
+
+A tabela abaixo apresenta a Razão de Elite, métrica que quantifica a disparidade de acesso ao topo da pirâmide de desempenho entre as redes de ensino em Belo Horizonte.
+
+| Matéria | Privada no D10 (%) | Pública no D10 (%) | Razão de Elite |
+| :--- | :--- | :--- | :--- |
+| Matemática | 21.14% | 2.9% | 7.3x |
+| Ciências Natureza | 21.14% | 2.9% | 7.3x |
+| Ciências Humanas | 21.59% | 2.8% | 7.7x |
+| Linguagens e Códigos | 20.35% | 3.57% | 5.7x |
+| Redação | 20.12% | 3.71% | 5.4x |
+
+> **Insight Principal:** A maior desigualdade observada ocorre em [Ciências Humanas], onde um aluno da rede privada possui [7.7] vezes mais chance de estar entre as melhores notas (Decil 10) do que um aluno da rede pública.
+
+Os resultados obtidos nesta análise confirmam a existência de um abismo educacional estrutural em Belo Horizonte, evidenciado pela disparidade nas métricas de Razão de Elite entre as redes pública e privada. A concentração de alunos da rede pública nos decis de menor desempenho e a baixa conversão de talentos para o topo da pirâmide de notas sugerem que a desigualdade no ENEM não é apenas um reflexo do exame em si, mas do acesso desigual a recursos educacionais ao longo da formação.
+
+### Direcionamento para Gestão e Políticas Públicas
+Com base nos dados extraídos da Camada Ouro, esta análise sugere os seguintes direcionamentos:
+
+1.  **Foco em Ciências Exatas e da Natureza:** A acentuada Razão de Elite em Matemática e Ciências da Natureza indica a necessidade de investimentos prioritários em laboratórios, tecnologia e reforço pedagógico nestas áreas específicas dentro da rede pública de Belo Horizonte.
+2.  **Redução de Gargalos:** O mapeamento por decis permite que gestores identifiquem onde a "fuga" de alunos para as faixas de baixo desempenho é mais crítica, possibilitando intervenções cirúrgicas em escolas ou regiões com indicadores abaixo da média municipal.
+3.  **Monitoramento Baseado em Dados:** A implementação de uma arquitetura de dados escalável, como a utilizada neste projeto, permite o monitoramento contínuo da evolução destes indicadores ano após ano, garantindo que as políticas de equidade sejam avaliadas por sua eficácia real.
+
+Este projeto demonstra que a Ciência de Dados é uma ferramenta indispensável para transformar grandes volumes de informação em diagnósticos precisos, capazes de fundamentar decisões que promovam a redução da desigualdade social e educacional.
