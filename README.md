@@ -36,6 +36,10 @@ Para otimizar o fluxo de dados e o armazenamento, utilizou-se o formato Apache P
 
 ## Análise Estatística da Desigualdade
 
+Para fundamentar os cálculos de disparidade, utilizamos a distribuição percentual de alunos em cada decil de nota, segmentada por rede de ensino. O gráfico abaixo ilustra como a participação da rede privada cresce proporcionalmente à medida que nos aproximamos do topo da distribuição (D10), enquanto a rede pública concentra a maior densidade de alunos nos decis iniciais.
+
+![Distribuição de Notas por Decis](grafico/distribuicao_decis.png)
+
 A tabela abaixo apresenta a Razão de Elite, métrica que quantifica a disparidade de acesso ao topo da pirâmide de desempenho entre as redes de ensino em Belo Horizonte.
 
 | Matéria | Privada no D10 (%) | Pública no D10 (%) | Razão de Elite |
